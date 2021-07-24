@@ -4,3 +4,11 @@
   line-height: 1;
   font-weight: normal;
 }
+
+@media (min-width: 768px) {
+  .footer__copyright {
+    line-height: 1.16;
+    text-align: right;
+    white-space: nowrap;
+  }
+}

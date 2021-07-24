@@ -4,4 +4,32 @@
   line-height: 1.1;
   text-align: center;
   margin: 0;
+  padding: 0 16px 16px;
+  max-width: 720px;
+
 }
+
+@media (min-width: 768px) {
+  .lead__title {
+    font-size: 96px;
+    line-height: 1.04;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__title {
+    padding-left: 104px;
+    padding-right: 104px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__title {
+    padding-left: 132px;
+    padding-right: 132px;
+  }
+}
+

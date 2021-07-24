@@ -3,5 +3,33 @@
   font-weight: normal;
   line-height: 1.25;
   text-align: center;
-  margin: 16px;
+  margin: 0;
+  padding: 0 16px 40px;
+  max-width: 640px;
+}
+
+@media (min-width: 768px) {
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 1.2;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 56px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__subtitle {
+    padding-left: 144px;
+    padding-right: 144px;
+    padding-bottom: 56px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__subtitle {
+    padding-left: 172px;
+    padding-right: 172px;
+    padding-bottom: 64px;
+  }
 }

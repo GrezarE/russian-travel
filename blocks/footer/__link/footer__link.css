@@ -4,13 +4,17 @@
   font-size: 24px;
   line-height: 1;
   font-weight: normal;
-  margin-bottom: 10%;
-}
-
-.footer__link:last-of-type {
-  margin-bottom: 15%;
+  display: flex;
 }
 
 .footer__link:hover {
   opacity: .8;
 }
+
+@media (min-width: 768px) {
+  .footer__link {
+    font-size: 16px;
+    line-height: 1.12;
+  }
+}
+
