@@ -15,5 +15,5 @@
 5. Использован подход _"Mobile first"_
 
 #### GitHub Pages:
-
+https://grezare.github.io/russian-travel/index.html
 
