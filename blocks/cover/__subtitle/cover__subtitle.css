@@ -3,9 +3,35 @@
   font-size: 14px;
   line-height: 1.143;
   text-align: center;
-  padding: 0 16px 33px;
+  padding: 0 5% 10.33%;
   margin: 0;
   position: relative;
   z-index: 3;
-  max-width: 90%;
 }
+
+@media (min-width: 768px) {
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 1.22;
+    padding-bottom: 14.98%;
+    padding-left: 26.562%;
+    padding-right: 26.562%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__subtitle {
+    padding-left: 32.4219%;
+    padding-right: 32.4219%;
+    padding-bottom: 19.043%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover__subtitle {
+    padding-left: 34.7973%;
+    padding-right: 34.7973%;
+    padding-bottom: 20.6926%;
+  }
+}
+

@@ -3,9 +3,14 @@
   font-weight: normal;
   line-height: 1.63;
   margin: 0;
-  padding: 0 5% 0;
 }
 
-/* .place__paragraph:not(:first-child) {
+.place__paragraph:not(:first-of-type) {
   padding-top: 25px;
-} */
+}
+
+@media (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+  }
+}

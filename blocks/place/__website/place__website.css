@@ -3,3 +3,11 @@
   flex-direction: column;
   padding: 0 5%;
 }
+
+
+@media (min-width: 768px) {
+.place__website {
+  padding-left: 0;
+  padding-right: 0;
+}
+}

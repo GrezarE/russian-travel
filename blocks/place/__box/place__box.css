@@ -1,0 +1,9 @@
+.place__box {
+  padding: 0 5% 0;
+}
+
+@media (min-width: 768px) {
+  .place__box {
+    padding: 0;
+  }
+}

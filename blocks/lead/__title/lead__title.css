@@ -3,33 +3,32 @@
   font-weight: 900;
   line-height: 1.1;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 16px 16px;
   max-width: 720px;
-
 }
 
 @media (min-width: 768px) {
   .lead__title {
     font-size: 96px;
     line-height: 1.04;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 3.125%;
+    padding-right: 3.125%;
     padding-bottom: 32px;
   }
 }
 
 @media (min-width: 1024px) {
   .lead__title {
-    padding-left: 104px;
-    padding-right: 104px;
+    padding-left: 11.2069%;
+    padding-right: 11.2069%;
   }
 }
 
 @media (min-width: 1280px) {
   .lead__title {
-    padding-left: 132px;
-    padding-right: 132px;
+    padding-left: 13.4147%;
+    padding-right: 13.4147%;
   }
 }
 

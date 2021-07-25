@@ -3,8 +3,8 @@
   font-weight: normal;
   line-height: 1.25;
   text-align: center;
-  margin: 0;
-  padding: 0 16px 40px;
+  margin: 0 auto;
+  padding: 0 5% 40px;
   max-width: 640px;
 }
 
@@ -12,24 +12,23 @@
   .lead__subtitle {
     font-size: 30px;
     line-height: 1.2;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 8.334%;
+    padding-right: 8.334%;
     padding-bottom: 56px;
   }
 }
 
 @media (min-width: 1024px) {
   .lead__subtitle {
-    padding-left: 144px;
-    padding-right: 144px;
-    padding-bottom: 56px;
+    padding-left: 15.5173%;
+    padding-right: 15.5173%;
   }
 }
 
 @media (min-width: 1280px) {
   .lead__subtitle {
-    padding-left: 172px;
-    padding-right: 172px;
+    padding-left: 17.48%;
+    padding-right: 17.48%;
     padding-bottom: 64px;
   }
 }

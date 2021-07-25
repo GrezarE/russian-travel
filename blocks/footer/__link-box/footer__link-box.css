@@ -1,10 +1,10 @@
 .footer__link-box {
   display: block;
-  margin-bottom: 32px;
+  margin-bottom: 10.5264%;
 }
 
 .footer__link-box:last-of-type {
-  margin-bottom: 48px;
+  margin-bottom: 15.79%;
 }
 
 @media (min-width: 768px) {

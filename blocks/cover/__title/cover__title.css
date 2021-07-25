@@ -3,9 +3,33 @@
   font-weight: 900;
   line-height: 1.094;
   text-align: center;
-  padding: 33px 16px 16px;
+  padding: 10.33% 5% 5%;
   margin: 0;
   position: relative;
   z-index: 3;
-  max-width: 90%;
 }
+
+@media (min-width: 768px) {
+  .cover__title {
+    font-size: 72px;
+    line-height: 1.06;
+    padding: 14.98% 13.5416% 4.1666%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__title {
+    padding-left: 22.6563%;
+    padding-right: 22.6563%;
+    padding-top: 19.043%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover__title {
+    padding-left: 26.3514%;
+    padding-right: 26.3514%;
+    padding-top: 20.6926%;
+  }
+}
+

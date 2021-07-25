@@ -7,9 +7,9 @@
 
 @media (min-width: 1024px) {
   .lead {
-    padding-left: 48px;
-    padding-right: 48px;
-    width: calc(100% - 96px);
+    padding-left: 4.6875%;
+    padding-right: 4.6875%;
+    width: calc(100% - 9.375%);
   }
 
 }
@@ -17,8 +17,8 @@
 @media (min-width: 1280px) {
   .lead {
     padding-top: 56px;
-    padding-left: 148px;
-    padding-right: 148px;
-    width: calc(100% - 296px);
+    padding-left: 11.5625%;
+    padding-right: 11.5625%;
+    width: calc(100% - 23.125%);
   }
 }

@@ -1,14 +1,14 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 16px 16px 0;
-  width: calc(100% - 32px);
+  padding: 5% 5% 0;
+  width: calc(100% - 10%);
 }
 
 @media (min-width: 768px) {
   .header {
-    padding: 28px 24px 0;
-    width: calc(100% - 48px);
+    padding: 28px 3.125% 0;
+    width: calc(100% - 6.25%);
   }
 }
 

@@ -1,21 +1,28 @@
 .footer__nav {
   display: flex;
   flex-direction: column;
-  padding: 64px 0 24px 16px;
-  width: calc(100% - 16px);
+  padding: 20% 0 7.5% 5%;
+  width: calc(100% - 5%);
 }
 
 @media (min-width: 768px) {
   .footer__nav {
     flex-direction: row;
-    padding: 68px 24px 24px;
-    width: calc(100% - 48px)
+    padding: 8.8542% 3.125% 3.125%;
+    width: calc(100% - 6.25%)
   }
 }
 
 @media (min-width: 1024px) {
   .footer__nav {
-    padding: 92px 48px 24px;
-    width: calc(100% - 96px);
+    padding: 8.9844% 4.6875% 2.34375%;
+    width: calc(100% - 9.375%);
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer__nav {
+    padding: 7.1875% 3.75% 1.875%;
+    width: calc(100% - 7.5%);
   }
 }
