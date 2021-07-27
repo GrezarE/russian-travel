@@ -3,10 +3,13 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 1.111;
+  text-decoration: none;
+  transition: 1s;
 }
 
-.header__link:first-child {
-  margin-right: 18px;
+.header__link:hover {
+  opacity: .8;
+  transition: 1s;
 }
 
 @media (min-width: 768px) {

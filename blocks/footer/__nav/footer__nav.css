@@ -1,28 +1,32 @@
 .footer__nav {
   display: flex;
   flex-direction: column;
-  padding: 20% 0 7.5% 5%;
+  padding: 20% 0 0 5%;
   width: calc(100% - 5%);
 }
 
 @media (min-width: 768px) {
   .footer__nav {
     flex-direction: row;
-    padding: 8.8542% 3.125% 3.125%;
+    padding: 11.459% 0 3.125% 3.125%;
     width: calc(100% - 6.25%)
   }
 }
 
 @media (min-width: 1024px) {
   .footer__nav {
-    padding: 8.9844% 4.6875% 2.34375%;
+    padding-top: 8.9844%;
+    padding-left: 4.6875%;
+    padding-bottom: 2.34375%;
     width: calc(100% - 9.375%);
   }
 }
 
 @media (min-width: 1280px) {
   .footer__nav {
-    padding: 7.1875% 3.75% 1.875%;
+    padding-top: 7.1875%;
+    padding-left: 3.75%;
+    padding-bottom: 1.875%;
     width: calc(100% - 7.5%);
   }
 }

@@ -1,14 +1,15 @@
 .footer__link {
-  text-decoration: none;
   color: #fff;
   font-size: 24px;
   line-height: 1;
   font-weight: normal;
+  text-decoration: none;
   display: flex;
 }
 
 .footer__link:hover {
   opacity: .8;
+  transition: 1s;
 }
 
 @media (min-width: 768px) {
@@ -17,4 +18,3 @@
     line-height: 1.12;
   }
 }
-

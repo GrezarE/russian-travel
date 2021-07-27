@@ -18,20 +18,24 @@
     column-gap: 28px;
     row-gap: 48px;
   }
+  .place:last-of-type {
+    padding-bottom: 11.719%;
+  }
 }
 @media (min-width: 1024px) {
   .place {
-    grid-template-columns: 47.223% 48.89%;
     padding-left: 4.687%;
     padding-right: 4.687%;
     padding-bottom: 80px;
     column-gap: 32px;
   }
+  .place:last-of-type {
+    padding-bottom: 92px;
+  }
 }
 
 @media (min-width: 1280px) {
   .place {
-    grid-template-columns: 47.223% 48.89%;
     padding-left: 11.562%;
     padding-right: 11.562%;
     column-gap: 40px;

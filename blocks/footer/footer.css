@@ -2,4 +2,11 @@
   width: 100%;
   display: flex;
   color: #fff;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+  }
 }
