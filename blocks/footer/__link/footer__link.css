@@ -5,11 +5,11 @@
   font-weight: normal;
   text-decoration: none;
   display: flex;
+  transition: 1s;
 }
 
 .footer__link:hover {
   opacity: .8;
-  transition: 1s;
 }
 
 @media (min-width: 768px) {

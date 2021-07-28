@@ -19,6 +19,7 @@
   background-color: #2A2C2F;
   opacity: 0.3;
   z-index: 0;
+  transition: 2s;
 }
 
 .cover__overlay:hover::before {
